@@ -55,7 +55,9 @@ Pasos para el Despliegue
     ```
 Una vez que el contenedor esta corriendo puedes ejecutar: "http://127.0.0.1:8000/docs"
 
+<p align="center">
 <img src="assets/docker.png" width="400">
+</p>
 
 3. PYTHON
 Para correr el proyecto de forma local sin Docker, necesitarás abrir **dos terminales separadas** en tu editor de código.
@@ -99,13 +101,13 @@ La aplicación cuenta con una interfaz intuitiva y dinámica, diseñada para exp
 Al ingresar, te recibirá una interfaz limpia donde podrás seleccionar el recurso que deseas consultar. Cada sección activa automáticamente sus propios filtros específicos según lo que busques.
 
 <p align="center">
-  <img src="assets/intro.png" width="50%" alt="Interfaz Principal">
+  <img src="assets/intro.png" width="70%" alt="Interfaz Principal">
 </p>
-<p>
-  <img src="assets/opciones.png" width="50%" alt="Opciones de Selección">
+<p align="center">
+  <img src="assets/opciones.png" width="70%" alt="Opciones de Selección">
 </p>
-<p>
-  <img src="assets/filtrado.png" width="50%" alt="Filtros Dinámicos">
+<p align="center">
+  <img src="assets/filtrado.png" width="70%" alt="Filtros Dinámicos">
 </p>
 ---
 
@@ -113,10 +115,10 @@ Al ingresar, te recibirá una interfaz limpia donde podrás seleccionar el recur
 Una vez aplicados los filtros, la plataforma te permite tanto **visualizar los datos** en tiempo real (en tablas interactivas y con las imágenes de los personajes) como **descargar el reporte en formato `.CSV`** directamente a tu computadora.
 
 <p align="center">
-  <img src="assets/descarga.png" width="50%" alt="Botón de Descarga">
+  <img src="assets/descarga.png" width="70%" alt="Botón de Descarga">
 </p>
 <p align="center">
-  <img src="assets/personajes.png" width="50%" alt="Vista de Personajes">
+  <img src="assets/personajes.png" width="70%" alt="Vista de Personajes">
 </p>
 ---
 
@@ -124,7 +126,7 @@ Una vez aplicados los filtros, la plataforma te permite tanto **visualizar los d
 *¡El toque especial!* Si seleccionas el apartado de **Episodios**, además de la data, podrás elegir cualquier capítulo de la lista desplegable y se habilitará un reproductor multimedia para ver el episodio directamente desde la aplicación web.
 
 <p align="center">
-  <img src="assets/episodios.png" width="65%" alt="Reproductor de Episodios">
+  <img src="assets/episodios.png" width="70%" alt="Reproductor de Episodios">
 </p>
 
 
