@@ -3,14 +3,12 @@ import pandas as pd
 from fastapi import FastAPI, Query, HTTPException, Response
 from services.api_client import RickAndMortyClient
 
-# 1. Inicializamos FastAPI
 app = FastAPI(
     title="Rick & Morty - API Total",
     description="Endpoints síncronos que descargan absolutamente todos los registros de golpe.",
     version="3.0.0"
 )
 
-# 2. Instanciamos el cliente que creamos antes
 rm_client = RickAndMortyClient()
 
 

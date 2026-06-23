@@ -14,7 +14,7 @@ with col2:
 
 
 # Constantes
-BASE_URL = "http://127.0.0.1:8000/api/v1"
+BASE_URL = "http://127.0.0.1:8000/api/v1" 
 MAPA_ESTADOS = {"Vivo": "alive", "Muerto": "dead", "Desconocido": "unknown"}
 MAPA_GENEROS = {"Femenino": "female", "Masculino": "male", "Sin género": "genderless", "Desconocido": "unknown"}
 BADGE_COLOR = {"Alive": "🟢", "Dead": "🔴", "unknown": "⚪"}

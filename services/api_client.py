@@ -6,7 +6,6 @@ from urllib3.util.retry import Retry
 class RickAndMortyClient:
     def __init__(self):
         self.base_url = "https://rickandmortyapi.com/api"
-        # Sesión con reintentos automáticos ante fallos de red
         self.session = requests.Session()
         retry = Retry(total=3, backoff_factor=0.5, status_forcelist=[429, 502, 503, 504])
         adapter = HTTPAdapter(max_retries=retry)
@@ -27,9 +26,8 @@ class RickAndMortyClient:
 
             all_results.extend(data.get("results", []))
 
-            # La URL "next" ya lleva los filtros embebidos → no repetir params
             next_url = data.get("info", {}).get("next")
-            current_params = None  # solo se usan en la primera petición
+            current_params = None  
 
             time.sleep(0.05)
 

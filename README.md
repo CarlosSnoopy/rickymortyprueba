@@ -5,7 +5,7 @@
 </p>
 
 ##  Descripción del Proyecto
-Esta pequeña prueba tecnica es una Wikipedia dedicada a Rick y Morty donde podremos buscar personajes, episodios y lugares de la serie donde tambien podremos descargar con todo lujo de filtros archivos .CSV y poder ver capitulos de la serie. Se puede ver en la nube en este enlace: <https://pruebaapi.streamlit.app>
+Esta pequeña prueba tecnica es una Wikipedia dedicada a Rick y Morty donde podremos buscar personajes, episodios y lugares de la serie donde tambien podremos descargar con todo lujo de filtros archivos .CSV y poder ver capitulos de la serie. En proximas versiones tendremos una web desplegada <https://pruebaapi.streamlit.app>
 
 
 ## Formas de usar
@@ -87,6 +87,7 @@ La interfaz de usuario interactiva y orientada al análisis.
 * **Motor de Filtrado:** Sistema avanzado que permite refinar los datos en tiempo real antes de realizar exportaciones a **CSV** donde usamos en (`utils/utils.py`) un metodo para generar el **CSV**
 * **Reproducción Multimedia:** Integración de un reproductor de episodios embebido(con anuncios), utilizando una API externa para el despliegue directo de contenido multimedia sobre la interfaz.
 
+  FLujo: app.py -> main.py -> api_client.py
 
 ##  Contenido de la Web
 
@@ -98,21 +99,25 @@ La aplicación cuenta con una interfaz intuitiva y dinámica, diseñada para exp
 Al ingresar, te recibirá una interfaz limpia donde podrás seleccionar el recurso que deseas consultar. Cada sección activa automáticamente sus propios filtros específicos según lo que busques.
 
 <p align="center">
-  <img src="assets/intro.png" width="32%" alt="Interfaz Principal">
-  <img src="assets/opciones.png" width="32%" alt="Opciones de Selección">
-  <img src="assets/filtrado.png" width="32%" alt="Filtros Dinámicos">
+  <img src="assets/intro.png" width="50%" alt="Interfaz Principal">
 </p>
-
+<p>
+  <img src="assets/opciones.png" width="50%" alt="Opciones de Selección">
+</p>
+<p>
+  <img src="assets/filtrado.png" width="50%" alt="Filtros Dinámicos">
+</p>
 ---
 
 ###  2. Visualización Interactiva y Descarga CSV
 Una vez aplicados los filtros, la plataforma te permite tanto **visualizar los datos** en tiempo real (en tablas interactivas y con las imágenes de los personajes) como **descargar el reporte en formato `.CSV`** directamente a tu computadora.
 
 <p align="center">
-  <img src="assets/descarga.png" width="48%" alt="Botón de Descarga">
-  <img src="assets/personajes.png" width="48%" alt="Vista de Personajes">
+  <img src="assets/descarga.png" width="50%" alt="Botón de Descarga">
 </p>
-
+<p align="center">
+  <img src="assets/personajes.png" width="50%" alt="Vista de Personajes">
+</p>
 ---
 
 ###  3. Reproductor Integrado de Episodios
