@@ -5,7 +5,7 @@
 </p>
 
 ##  Descripción del Proyecto
-Esta pequeña prueba tecnica es una Wikipedia dedicada a Rick y Morty donde podremos buscar personajes, episodios y lugares de la serie donde tambien podremos descargar con todo lujo de filtros archivos .CSV y poder ver capitulos de la serie. Se puede ver en la nube en este enlace: pruebaapi.streamlit.app
+Esta pequeña prueba tecnica es una Wikipedia dedicada a Rick y Morty donde podremos buscar personajes, episodios y lugares de la serie donde tambien podremos descargar con todo lujo de filtros archivos .CSV y poder ver capitulos de la serie. Se puede ver en la nube en este enlace: <https://pruebaapi.streamlit.app>
 
 
 ## Formas de usar
