@@ -50,9 +50,9 @@ Requisitos Previos
 Pasos para el Despliegue
 
   1. **Construye la imagen de la aplicación** (asegúrate de incluir el punto `.` al final):
-    ```bash
-    docker build -t rick-morty-backend .
-    ```
+```bash
+  docker build -t rick-morty-backend .
+```
 Una vez que el contenedor esta corriendo puedes ejecutar: "http://127.0.0.1:8000/docs"
 
 <p align="center">
