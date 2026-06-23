@@ -88,20 +88,39 @@ La interfaz de usuario interactiva y orientada al análisis.
 * **Reproducción Multimedia:** Integración de un reproductor de episodios embebido(con anuncios), utilizando una API externa para el despliegue directo de contenido multimedia sobre la interfaz.
 
 
-## Contenido de la Web
+##  Contenido de la Web
 
-Para empezar podemos ver una interfaz simple donde tendremos varias opciones para descargar el .CSV, tienes filtros para cada apartado.
-<img src="assets/intro.png" width="400">
-<img src="assets/opciones.png" width="400">
-<img src="assets/filtrado.png" width="400">
+La aplicación cuenta con una interfaz intuitiva y dinámica, diseñada para explorar, filtrar y extraer la información del universo de Rick y Morty fácilmente.
 
-Cuando se selecciona una opcion, tendremos opcion de descargar los datos como de visualizarlos tanto en formato tabla como en formato imagen.
-<img src="assets/descarga.png" width="400">
-<img src="assets/personajes.png" width="400">
+---
 
-Por ultimo pero no menos importante, si se selecciona el apartado de episodios podra seleccionar el capitulo que quiera y se le mostrara un reproductor con el episodio.
-<img src="assets/episodios.png" width="400">
+###  1. Interfaz Principal y Sistema de Filtros
+Al ingresar, te recibirá una interfaz limpia donde podrás seleccionar el recurso que deseas consultar. Cada sección activa automáticamente sus propios filtros específicos según lo que busques.
 
+<p align="center">
+  <img src="assets/intro.png" width="32%" alt="Interfaz Principal">
+  <img src="assets/opciones.png" width="32%" alt="Opciones de Selección">
+  <img src="assets/filtrado.png" width="32%" alt="Filtros Dinámicos">
+</p>
+
+---
+
+###  2. Visualización Interactiva y Descarga CSV
+Una vez aplicados los filtros, la plataforma te permite tanto **visualizar los datos** en tiempo real (en tablas interactivas y con las imágenes de los personajes) como **descargar el reporte en formato `.CSV`** directamente a tu computadora.
+
+<p align="center">
+  <img src="assets/descarga.png" width="48%" alt="Botón de Descarga">
+  <img src="assets/personajes.png" width="48%" alt="Vista de Personajes">
+</p>
+
+---
+
+###  3. Reproductor Integrado de Episodios
+*¡El toque especial!* Si seleccionas el apartado de **Episodios**, además de la data, podrás elegir cualquier capítulo de la lista desplegable y se habilitará un reproductor multimedia para ver el episodio directamente desde la aplicación web.
+
+<p align="center">
+  <img src="assets/episodios.png" width="65%" alt="Reproductor de Episodios">
+</p>
 
 
 
